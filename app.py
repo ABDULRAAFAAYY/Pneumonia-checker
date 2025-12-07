@@ -150,7 +150,7 @@ if error:
     st.error(f"Failed to load model: {error}")
     st.info("Please ensure you have installed the requirements: `pip install -r requirements.txt`")
 else:
-    st.success("✅ AI Model loaded successfully!")
+    st.success("✅ Model loaded successfully!")
 
 # File uploader
 st.markdown('<div class="upload-card">', unsafe_allow_html=True)
@@ -241,3 +241,4 @@ st.markdown("""
     Powered by Hugging Face 🤗 Transformers | Built with Streamlit ❤️
 </p>
 """, unsafe_allow_html=True)
+
